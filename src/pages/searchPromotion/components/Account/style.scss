@@ -1,0 +1,39 @@
+.search-promotion-account-component-box {
+    width: 100%;
+    background: #fff;
+    padding: 20px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #282c33;
+    .name {
+        font-weight: 500;
+    }
+    .info {
+        margin-top: 8px;
+        display: flex;
+        justify-content: left;
+
+        .info-item {
+            margin-right: 32px;
+            .title-text {
+                font-weight: 600;
+                margin-right: 8px;
+            }
+            .circle {
+                width: 10px;
+                height: 10px;
+                margin-right: 5px;
+                border-radius: 50%;
+                background-color: orange;
+                display: inline-block;
+            }
+            .value-text {
+                // color: #282c33;
+                margin-right: 8px;
+            }
+            .value-star {
+                padding-left: 8px;
+            }
+        }
+    }
+}

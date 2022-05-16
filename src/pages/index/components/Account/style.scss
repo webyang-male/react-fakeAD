@@ -1,0 +1,80 @@
+.account-component-box {
+    height: 267px;
+    background-color: #ffffff;
+    padding: 18px 20px 2px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px 0 rgba(183,183,188,.1);
+
+    .examine {
+        display: flex;
+        margin-top: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+
+        .status {
+            font-size: 12px;
+            border: 1px solid #d4d4d4;
+            border-radius: 9px;
+            padding: 0 6px;
+            color: #333;
+            height: 22px;
+            line-height: 20px;
+        }
+        .status-ok {
+            font-size: 12px;
+            border: 1px solid #1890ff;
+            border-radius: 9px;
+            padding: 0 6px;
+            color: #1890ff;
+            height: 22px;
+            line-height: 20px;
+        }
+    }
+    .balance {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .text {
+            font-size: 12px;
+            color: #999;
+            line-height: 18px;
+            margin-bottom: 2px;
+        }
+        .value {
+            font-size: 22px;
+            color: #000;
+            line-height: 26px;
+        }
+    }
+    .credit {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .text {
+            font-size: 12px;
+            color: #999;
+            line-height: 18px;
+            margin-bottom: 2px;
+        }
+        .value {
+            font-size: 22px;
+            color: #000;
+            line-height: 26px;
+        }
+        .detail-text {
+            cursor: pointer;
+            font-size: 12px;
+            color: #282c33;
+
+            &:hover {
+                text-decoration: underline;
+                color: #999;
+            }
+        }
+    }
+}

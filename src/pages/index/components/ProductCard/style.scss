@@ -1,0 +1,25 @@
+.product-service-component-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 18px 20px 2px;
+
+    .title {
+        font-size: 21px;
+    }
+    .product-service-item {
+        display: inline-block;
+        margin: 20px 36px;
+        cursor: pointer;
+        text-align: center;
+        width: 100px;
+
+        img {
+            width: 70px;
+            height: 70px;
+        }
+        .name {
+            font-size: 14px;
+            margin-top: 3px;
+        }
+    }
+}

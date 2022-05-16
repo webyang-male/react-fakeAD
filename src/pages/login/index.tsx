@@ -1,15 +1,23 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
+import utilsIndex from '@utils/index';
+// import './style.scss';
 
-interface Pros{}
+interface Props { }
 
-class LoginPage extends Component<Pros>{
-  render(){
-    return(
-      <div className="box" style={{color: 'red', backgroundColor: 'black'}}>
-        <h1>登录页</h1>
-      </div>
-    )
-  }
+class LoginPage extends Component<Props> {
+    componentDidMount() {
+        const id = utilsIndex.getUrlParam('id');
+        console.log('id', id);
+    }
+
+    render() {
+        return (
+            <div className="box">
+                Hello, React.
+                <span>here is login page.</span>
+            </div>
+        );
+    }
 }
 
 export default LoginPage;

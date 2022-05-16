@@ -1,0 +1,70 @@
+.promotion-card-component-box {
+    display: flex;
+    justify-content: space-between;
+}
+.pro-card-item-component-box {
+    width: 210px;
+    height: 164px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 0 rgba(183,183,188,.1);
+    border-radius: 8px;
+    position: relative;
+
+    .name {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .desc {
+        line-height: 20px;
+        color: #666;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .wrap {
+        margin-top: 18px;
+        display: flex;
+        align-items: center;
+
+        .label {
+            color: #999;
+            font-size: 12px;
+            padding-right: 10px;
+        }
+        .value {
+            font-size: 16px;
+        }
+    }
+    .btn-wrap {
+        position: absolute;
+        right: 10px;
+        top: 18px;
+
+        button {
+            font-size: 12px;
+        }
+    }
+}
+
+.budget-modal {
+    .radio-hint {
+        color: #999;
+        margin-left: 10px;
+    }
+    .input-number {
+        margin-left: 28px;
+        margin-top: 10px;
+        font-size: 12px;
+    
+        .unit {
+            margin-left: 5px;
+        }
+        .hint {
+            margin-left: 10px;
+            color: #999;
+        }
+    }
+    .budget-hint {
+        margin-top: 20px;
+    }
+}

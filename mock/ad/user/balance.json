@@ -1,0 +1,10 @@
+{
+	"code": 0,
+	"msg": "success",
+	"data": {
+		"name": "大赵同学",
+		"balance": 8889,
+		"credit": 1001,
+		"status": 1
+	}
+}
