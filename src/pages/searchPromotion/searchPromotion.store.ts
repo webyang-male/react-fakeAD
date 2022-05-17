@@ -23,7 +23,7 @@ class SearchPromotionStore {
                 });
             });
         } catch (error) {
-            console.log('error', error);
+            //console.log('error', error);
         }
     }
 
@@ -39,7 +39,7 @@ class SearchPromotionStore {
                 });
             });
         } catch (error) {
-            console.log('error', error);
+            //console.log('error', error);
         }
     }
 }

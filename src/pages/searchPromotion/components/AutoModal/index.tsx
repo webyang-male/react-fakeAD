@@ -41,13 +41,13 @@ function AutoModal(props: Iprops) {
 
     const handelOk = () => {
         form.validateFields().then((values: any) => {
-            console.log('values', values);
+            //console.log('values', values);
             const { onBtnClick } = props;
             if (onBtnClick) {
                 onBtnClick(1, values);
             }
         }).catch((errorInfo: any) => {
-            console.log('errorInfo', errorInfo);
+            //console.log('errorInfo', errorInfo);
         });
     };
 
@@ -63,7 +63,7 @@ function AutoModal(props: Iprops) {
     };
 
     const onFinish = (values: any) => {
-        console.log(values);
+        //console.log(values);
     };
 
     return (

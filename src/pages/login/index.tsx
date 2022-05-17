@@ -7,7 +7,7 @@ interface Props { }
 class LoginPage extends Component<Props> {
     componentDidMount() {
         const id = utilsIndex.getUrlParam('id');
-        console.log('id', id);
+        //console.log('id', id);
     }
 
     render() {

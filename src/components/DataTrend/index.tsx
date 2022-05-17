@@ -12,7 +12,7 @@ const defaultCardData = [
         name: '消费（元）',
         value: 2000,
         persent: '',
-        icon: 'assets/imgs/card-icon1',
+        icon: '../assets/imgs/card-icon1',
         isSelected: true,
     },
     {
@@ -20,7 +20,7 @@ const defaultCardData = [
         name: '展现（次）',
         value: 5988,
         persent: 88.9,
-        icon: 'assets/imgs/card-icon2',
+        icon: '../assets/imgs/card-icon2',
         isSelected: false,
     },
     {
@@ -28,7 +28,7 @@ const defaultCardData = [
         name: '点击（次）',
         value: 199,
         persent: 12.6,
-        icon: 'assets/imgs/card-icon3',
+        icon: '../assets/imgs/card-icon3',
         isSelected: false,
     },
 ];
@@ -88,7 +88,7 @@ class Chart extends React.Component<IProps, IStates> {
     componentWillMount = () => {
         // @ts-ignore
         const { store, globalStore } = this.props;
-        console.log('globalStore.isKAAccount', globalStore.isKAAccount);
+        //console.log('globalStore.isKAAccount', globalStore.isKAAccount);
         store.getChartData();
     }
 

@@ -24,7 +24,7 @@ const mockMiddleware = (config) => (req, res, next) => {
     }
 
     const filePath = path.resolve(projectDir, `./${mockDir + req.path}.json`);
-    console.log('filePath', filePath);
+    //console.log('filePath', filePath);
 
     return fs.stat(filePath, (error) => {
         if (error) {

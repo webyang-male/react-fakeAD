@@ -142,13 +142,13 @@ class WaveAnalysis extends Component<IProps> {
 
     handleOk = () => {
         this.formRef.current!.validateFields().then((values: any) => {
-            console.log('values', values);
+            //console.log('values', values);
             // 发生接口请求
             this.setState({
                 isModalVisible: false,
             });
         }).catch((error: any) => {
-            console.log('values', error);
+            //console.log('values', error);
         });
     }
 
@@ -159,7 +159,7 @@ class WaveAnalysis extends Component<IProps> {
     }
 
     onFinish = (values: any) => {
-        console.log(values);
+        //console.log(values);
     };
 
     render() {

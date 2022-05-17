@@ -6,7 +6,7 @@ Thumbs.db
 
 .dist
 node_modules/
-u.sh
+#u.sh
 .github*/
 
 
@@ -24,7 +24,7 @@ u.sh
 
 # production
 /build
-dist
+#dist
 
 # misc
 .DS_Store

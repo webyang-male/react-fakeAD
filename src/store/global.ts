@@ -25,7 +25,7 @@ class GlobalStore {
     //             });
     //         });
     //     } catch (error) {
-    //         console.log('error', error);
+    //         //console.log('error', error);
     //     }
     // }
 
@@ -41,7 +41,7 @@ class GlobalStore {
     //             });
     //         });
     //     } catch (error) {
-    //         console.log('error', error);
+    //         //console.log('error', error);
     //     }
     // }
 }

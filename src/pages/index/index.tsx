@@ -34,14 +34,14 @@ class IndexPage extends Component<Props, States> {
 
     componentDidMount() {
         axios.get('/ad/index/gray').then((res) => {
-            console.log('res', res);
+            //console.log('res', res);
         }).catch((error) => {
-            console.log(error);
+            //console.log(error);
         });
     }
 
     handleDateChange = (date: moment.Moment | null) => {
-        console.log('date change', moment(date).unix());
+        //console.log('date change', moment(date).unix());
     }
 
     hanleContextChange = () => {
@@ -122,7 +122,7 @@ class IndexPage extends Component<Props, States> {
                                 </div>
                             </div>
                             <div className="right-bottom-img">
-                                <img src="assets/imgs/right-bg.png" alt="" />
+                                <img src="../assets/imgs/right-bg.png" alt="" />
                             </div>
                         </div>
                     </div>
