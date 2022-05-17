@@ -8,10 +8,10 @@ class IndexBanner extends React.Component {
             <div className="index-banner-component-box">
                 <Carousel autoplay>
                     <div>
-                        <img src="../assets/imgs/index-banner1.png" alt="" />
+                        <img src="assets/imgs/index-banner1.png" alt="" />
                     </div>
                     <div>
-                        <img src="../assets/imgs/index-banner2.png" alt="" />
+                        <img src="assets/imgs/index-banner2.png" alt="" />
                     </div>
                 </Carousel>
             </div>

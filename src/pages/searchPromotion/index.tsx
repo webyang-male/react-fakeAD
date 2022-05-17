@@ -19,7 +19,7 @@ const cardData = [
         name: '消费（元）',
         value: 2000,
         persent: '',
-        icon: '../assets/imgs/card-icon1',
+        icon: 'assets/imgs/card-icon1',
         isSelected: true,
     },
     {
@@ -27,7 +27,7 @@ const cardData = [
         name: '展现（次）',
         value: 5988,
         persent: '',
-        icon: '../assets/imgs/card-icon2',
+        icon: 'assets/imgs/card-icon2',
         isSelected: false,
     },
     {
@@ -35,7 +35,7 @@ const cardData = [
         name: '点击（次）',
         value: 199,
         persent: '',
-        icon: '../assets/imgs/card-icon3',
+        icon: 'assets/imgs/card-icon3',
         isSelected: false,
     },
     {
@@ -43,7 +43,7 @@ const cardData = [
         name: '展现人数（人）',
         value: 20000,
         persent: '',
-        icon: '../assets/imgs/card-icon3',
+        icon: 'assets/imgs/card-icon3',
         isSelected: false,
     },
     {
@@ -51,7 +51,7 @@ const cardData = [
         name: '点击人数（人）',
         value: 8000,
         persent: '',
-        icon: '../assets/imgs/card-icon3',
+        icon: 'assets/imgs/card-icon3',
         isSelected: false,
     },
 ];

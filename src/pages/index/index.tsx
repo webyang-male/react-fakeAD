@@ -122,7 +122,7 @@ class IndexPage extends Component<Props, States> {
                                 </div>
                             </div>
                             <div className="right-bottom-img">
-                                <img src="../assets/imgs/right-bg.png" alt="" />
+                                <img src="assets/imgs/right-bg.png" alt="" />
                             </div>
                         </div>
                     </div>
