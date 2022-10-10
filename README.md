@@ -12,6 +12,11 @@
 7. antd
 8. redux
 
+## 安装依赖
+````bash
+npm i 或者 yarn 或者 yarn install
+````
+
 ## 项目运行
 
 ````bash
